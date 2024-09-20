@@ -1,0 +1,102 @@
+header{
+    text-align: center;
+    height: 10px;
+    line-height: 10px;
+    color: red;
+}
+body {
+    font-family: "Times New Roman", serif;
+    background-color: rgb(255, 212, 148);
+  }
+li {
+    height: 20px;
+    line-height: 20px;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: orange;
+}
+
+h1 {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    text-align:center;
+}
+article {
+    background-color: black;
+    color: white;
+    border-style: solid;
+    /*border-radius: 20%; */
+    border-width: 30px;
+    border-color: black;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+img.big{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    height: 768px;
+    border-radius: 4%;
+}
+h2{
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align:center;
+}
+table{
+    width: 100%;
+    border-width: 10px;
+    border-color: black;
+    font-size: 50px;
+    border-style: solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+td, th{
+    height: 100px;
+}
+th{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+td.b{
+    color: white;
+    background-color: black;
+}
+td.w{
+    color: black;
+    background-color: white;
+}
+hr.ruler{
+    border-top: 5px solid black;
+    border-radius: 5%
+}
+section{
+    text-align: center;
+    display:inline-block;
+    font-size: 30px;
+}
+h3{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    text-align:center;
+}
